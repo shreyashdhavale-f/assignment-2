@@ -3,19 +3,21 @@
 using namespace std;
 
 int main() {
+
     string str = "hello";
 
     int left = 0;
-    int right = str.length() - 1;
+    int right = str.length()-1;
 
     while (left < right) {
+
         swap(str[left], str[right]);
 
         left++;
         right--;
     }
 
-    cout << str;
+    cout << str << endl;
 
     return 0;
 }
