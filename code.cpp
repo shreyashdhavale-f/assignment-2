@@ -7,19 +7,18 @@ int main() {
     string str = "hello Everyone";
 
     int left = 0;
+    int right = str.length()-1;
 
-    int right = str.length();
 
-
-    while (left <= right) {
+    while (left < right) {
 
         swap(str[left], str[right]);
 
-        left--;
-        right++;
+        left++;
+        right--;
     }
 
-    cout << str
+    cout << str << endl
 
     return 0;
 }
