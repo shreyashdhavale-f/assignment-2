@@ -4,10 +4,12 @@ using namespace std;
 
 int main() {
 
-    string str = "hello";
+    string str = "hello Everyone";
 
     int left = 0;
+
     int right = str.length();
+
 
     while (left <= right) {
 
