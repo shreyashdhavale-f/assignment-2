@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 
+    string str1 = "hello vishal";
     string str = "hello";
 
     int left = 0;
