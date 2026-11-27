@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-
-    string str = "hello";
+    string str = "hello world";
 
     int left = 0;
     int right = str.length()-1;
